@@ -18,15 +18,15 @@ const App = () => {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={ <ProtectedRoute> <Home /> </ProtectedRoute> } />
+          <Route path="/" element={  <Home />  } />
           <Route path="/about" element={<About />} />
           <Route path="/cse" element={<Cse />} />
           <Route path="/ece" element={<Ece />} />
           <Route path="/eee" element={<EEE />} />
           <Route path="/mech" element={<Mech />} />
-          <Route path="/allpdfs" element={<ProtectedRoute><Allpdfs /></ProtectedRoute>} />
+          <Route path="/allpdfs" element={<Allpdfs />} />
           <Route path= "/login" element = {<Login/>} />
-          <Route path = "/myprofile" element = {<ProtectedRoute><My_Profile/></ProtectedRoute>} />
+          <Route path = "/myprofile" element = {<My_Profile/>} />
         </Routes>
       </BrowserRouter>
     </div>
