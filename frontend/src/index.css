@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+
+
+body {
+  background-image: url('../assets/onlylogo.png');
+  background-repeat: no-repeat;
+  background-size: cover;       
+  background-position: center;
+  background-attachment: fixed;  
+  min-height: 100vh;
+}
